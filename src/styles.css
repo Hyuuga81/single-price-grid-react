@@ -41,6 +41,7 @@ main {
     align-items: center;
     flex-flow: row wrap;
     margin: 72px 0 62px 0;
+
 }
 
 section {
@@ -67,6 +68,7 @@ section {
     align-items: center;
     flex-flow: row wrap;
     background: #fff;
+    border-radius: 10px 10px 0 0;
 }
 
 .top h1 {
@@ -137,7 +139,7 @@ section {
     opacity: 0.5;
 }
 
-.subscription p {
+.subscription .access {
     margin: 4px 0 26px 0;
     font-size: 1.14em;
     font-weight: 400;
@@ -154,7 +156,7 @@ section {
     border-radius: 10px;
     border: none;
     font-size: 1.14em;
-    font-weight: 400;
+    font-weight: 700;
     margin-bottom: 24px;
 }
 
@@ -188,4 +190,106 @@ section {
 
 /***************** DESKTOP STYLES *****************/
 
-@media (min-width: 1200px) {}
+@media (min-width: 1440px) {
+    /**************** GENERAL STYLES *****************/
+
+    main {
+        max-width: 635px;
+        width: 44.1%;
+    }
+
+    /***************** TOP ********************/
+
+    .top {
+        width: 100%;
+    }
+
+    .top .container {
+        width: 87.4%;
+    }
+
+    .top h1 {
+        font-size: 1.71em;
+        line-height: 28px;
+        letter-spacing: -0.3px;
+        color: #2AB3B1;
+        margin: 40px 0 24px 0;
+    }
+
+    .top h2 {
+        width: 100%;
+        font-size: 1.29em;
+        line-height: 21px;
+        letter-spacing: -0.23px;
+
+    }
+
+    .top p {
+        margin: 11px 0 40px 0;
+        font-size: 1.14em;
+        line-height: 26px;
+        letter-spacing: -0.2px;
+    }
+
+    /***************** BOTTOM ********************/
+
+    .bottom {
+        align-items: stretch;
+        margin: 0;
+        padding: 0;
+    }
+
+    .subscription,
+    .why-us {
+        width: 50%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .subscription {
+        border-bottom-left-radius: 10px;
+    }
+
+    .why-us {
+        border-bottom-right-radius: 10px;
+    }
+
+    .subscription .container {
+        height: 100%;
+        width: 74.9%;
+    }
+
+    .subscription h2 {
+        font-size: 1.14em;
+        line-height: 21px;
+        letter-spacing: -0.23px;
+        margin: 40px 0 18px 0;
+    }
+
+    .subscription .monthly {
+        align-items: center;
+    }
+
+    .subscription .access {
+        margin: 4px 0 0 0;
+    }
+
+    .subscription button {
+        margin: 26px 0 40px 0;
+    }
+
+    /***************** WHY US *****************/
+
+    .why-us .container {
+        width: 74.9%;
+    }
+
+    .why-us h2 {
+        margin: 40px 0 18px 0;
+    }
+
+    .why-us ul {
+        margin-bottom: 40px;
+    }
+
+}

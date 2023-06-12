@@ -21,7 +21,7 @@ class App extends Component {
                   <h3 className="price">$29</h3>
                   <p className="rate">per month</p>
               </div>
-              <p>Full access for less than $1 a day</p>
+              <p className="access">Full access for less than $1 a day</p>
               <button>Sign Up</button>
             </div>
           </div>
