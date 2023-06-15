@@ -186,6 +186,11 @@ section {
     color: #fff;
     opacity: 0.75;
     margin-bottom: 24px;
+    font-size: 1em;
+    line-height: 20px;
+    letter-spacing: -0.175px;
+    font-weight: 400;
+    opacity: 0.75;
 }
 
 /***************** DESKTOP STYLES *****************/
