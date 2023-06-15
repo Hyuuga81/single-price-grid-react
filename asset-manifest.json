@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/single-price-grid-react/static/css/main.f3ac13e0.css",
+    "main.js": "/single-price-grid-react/static/js/main.fe22a204.js",
+    "index.html": "/single-price-grid-react/index.html",
+    "main.f3ac13e0.css.map": "/single-price-grid-react/static/css/main.f3ac13e0.css.map",
+    "main.fe22a204.js.map": "/single-price-grid-react/static/js/main.fe22a204.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f3ac13e0.css",
+    "static/js/main.fe22a204.js"
+  ]
+}
